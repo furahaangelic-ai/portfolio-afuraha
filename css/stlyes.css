@@ -59,6 +59,7 @@ body {
 
 }
 
+h1 { font-size: var(--text-h1); line-height: var(--leading-heading); }
 h2 { font-size: var(--text-h2); line-height: var(--leading-heading); }
 h3 { font-size: var(--text-h3); line-height: var(--leading-heading); }
 
