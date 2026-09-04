@@ -21,16 +21,15 @@ img {
 :root {
     /* ...existing tokens... */
     --font-stack: system-ui, 'Segoe UI', Tahoma, sans-serif;
-    --color-surface-alt: #143f6b;
     --radius-md: 8px;
-}
-   :root {
     /* Colors */
     --color-bg: #fafafa;
     --color-surface: #ffffff;
     --color-text: #1f2937;
     --color-muted: #305db6;
     --color-accent: #0369a1;
+    --color-surface-alt: #143f6b;
+
 
     /* Spacing - a modular scale */
     --space-sm: 0.5rem;
@@ -79,6 +78,17 @@ a { color: var(--color-accent); }
 /* ==========================
    4. LAYOUT
    ========================== */
+nav {
+    padding: var(--space-md) 0;
+}
+nav a {
+    color: var(--color-text);
+    text-decoration: none;
+    margin-right: var(--space-lg);
+ }
+
+ nav a:hover { color: var(--color-accent);}
+ section { margin-bottom: var(--space-xl); }
 
    body {
     max-width: var(--page-width);
