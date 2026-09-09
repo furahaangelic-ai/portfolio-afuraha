@@ -25,10 +25,14 @@ img {
     /* Colors */
     --color-bg: #fafafa;
     --color-surface: #ffffff;
-    --color-text: #1f2937;
+    --color-text: #75a3e4;
     --color-muted: #305db6;
-    --color-accent: #0369a1;
-    --color-surface-alt: #143f6b;
+    --color-accent: #c5d8e2;
+    --color-surface-alt: #99b5df;
+    /* ...existing tokens... */
+    --color-border: #e5e7eb;
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 
     /* Spacing - a modular scale */
@@ -113,4 +117,53 @@ header {
     align-items: center;
     justify-content: center;
     color: var(--color-muted);
+}
+.skills-grid {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+}
+.skill-card {
+    flex: 1;
+    min-width: 12rem;
+    padding: var(--space-md);
+    background-color: var(--color-surface-alt);
+    border-radius: var(--radius-md);
+}
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-lg);
+}
+.about-image { flex: 1; min-width: 16rem; }
+.about-image img { width: 100%; border-radius: var(--radius-md); }
+.about-text { flex: 2; min-width: 16rem; max-width: var(--reading-width); }
+
+.project-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+}
+.project-card {
+    padding: var(--space-lg);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links { display: flex; gap: var(--space-lg); }
+.logo {
+    font-size: var(--text-h3);
+    font-weight: bold;
+    color: var(--color-text);
+    text-decoration: none;
 }
