@@ -2,7 +2,7 @@
 A portfolio site built from scratch in HTML and CSS for WRIT 40363.
 It introduces who I am, what I am learning, and the work I have made.
 
-**Live site:** https://username.github.io/portfolio-yourname
+**Live site:** https://furahaangelic-ai.github.io/portfolio-afuraha
 
 ## Built with
 
