@@ -10,188 +10,113 @@
 
 <body>
 
-    <nav class="nav-container">
-        <a href="index.html" class="logo">Angelic Furaha</a>
+<nav class="nav-container">
+   <a href="index.html" class="logo">Angelic Furaha</a>
+   <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="index.html#contact">Contact</a>
+   </div>
+</nav>
 
-        <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="index.html#contact">Contact</a>
+<header>
+    <div class="header-text">
+        <h1>Angelic Furaha</h1>
+        <p>I am currently a senior at TCU, pursuing a double major in Digital Culture and Data Analytics and Sociology.</p>
+    </div>
+
+    <div class="header-pic">
+        <img src="images/headshot_square.jpg" alt="Portrait of Angelic Furaha">
+    </div>
+</header>
+
+<main>
+
+    <section class="about">
+        <div class="about-image">
+            <figure>
+                <img src="images/20260822_215015_6A0383.JPEG" alt="Fireworks during the weekend before the start of senior year">
+                <figcaption>My senior year — the last weekend before the first week of school.</figcaption>
+            </figure>
         </div>
-    </nav>
 
-    <header>
-        <div class="header-text">
-            <h1>Angelic Furaha</h1>
-            <p>
-                I am currently a senior at TCU, pursuing a double major in
-                Digital Culture and Data Analytics and Sociology.
-            </p>
+        <div class="about-text">
+            <h2 id="about">About Me</h2>
+            <p>I was born in Uganda and I am interested in learning how websites are built and how technology can help me grow professionally. I also work on campus as an Event Specialist for the University Unions, where I help make sure rooms are ready for events on the audio and visual side.</p>
         </div>
+    </section>
 
-        <div class="header-pic">
-            <img src="images/headshot_square.jpg" alt="Portrait of Angelic Furaha">
-        </div>
-    </header>
+    <section id="skills">
+        <h2>Skills</h2>
 
-    <main>
-
-        <section class="about">
-            <div class="about-image">
-                <figure>
-                    <img src="images/20260822_215015_6A0383.JPEG"
-                        alt="Fireworks during the weekend before the start of senior year">
-                    <figcaption>
-                        My senior year — the last weekend before the first week of school.
-                    </figcaption>
-                </figure>
-            </div>
-
-            <div class="about-text">
-                <h2 id="about">About Me</h2>
-                <p>
-                    I was born in Uganda and I am interested in learning how websites are built
-                    and how technology can help me grow professionally. I also work on campus as
-                    an Event Specialist for the University Unions, where I help make sure rooms
-                    are ready for events on the audio and visual side.
-                </p>
-            </div>
-        </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-
-            <ul class="skills-grid">
-                <li class="skill-card">
-                    <h3>HTML</h3>
-                    <p>
-                        I use semantic HTML to organize webpages with headings, sections,
-                        accessible links, lists, images, and captioned figures.
-                    </p>
-                </li>
-
-                <li class="skill-card">
-                    <h3>CSS</h3>
-                    <p>
-                        I am learning how to style responsive webpages using design tokens,
-                        Flexbox, Grid, and media queries.
-                    </p>
-                </li>
-
-                <li class="skill-card">
-                    <h3>Python</h3>
-                    <p>
-                        I am learning Python for data analysis and have used tools such as
-                        Google Colab to work with datasets.
-                    </p>
-                </li>
-
-                <li class="skill-card">
-                    <h3>Data Analysis</h3>
-                    <p>
-                        I am developing skills in working with data, identifying patterns,
-                        and communicating findings clearly.
-                    </p>
-                </li>
-            </ul>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-
-            <ul class="project-list">
-
-                <li class="project-card featured">
-                    <h3>Personal Portfolio</h3>
-                    <p>
-                        <time datetime="2026-08">August 2026</time>
-                    </p>
-                    <p>
-                        I built this portfolio from scratch using HTML and CSS. The site
-                        showcases my background, skills, projects, and professional goals
-                        while using responsive and <em>accessible</em> web design.
-                    </p>
-                </li>
-
-                <li class="project-card">
-                    <h3>Google Colab Data Project</h3>
-                    <p>
-                        <time datetime="2026-09">September 2026</time>
-                    </p>
-                    <p>
-                        I used Google Colab and Python to import and explore a dataset from
-                        Kaggle while continuing to build my coding and data analysis skills.
-                    </p>
-                </li>
-
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-
-            <p>
-                The best way to reach me is by email or through GitHub.
-            </p>
-
-            <ul>
-                <li>
-                    <a href="mailto:afuaha@tcu.edu">Email Angelic Furaha</a>
-                </li>
-
-                <li>
-                    <a href="https://github.com/furahaangelic-ai"
-                        target="_blank"
-                        rel="noopener">
-                        Visit my GitHub
-                    </a>
-                </li>
-            </ul>
-
-            <p>
-                <strong>Available for internships starting January 2027.</strong>
-            </p>
-        </section>
-
-    </main>
-
-    <aside id="resources">
-        <h2>Resources</h2>
-
-        <ul>
-            <li>
-                <a href="https://developer.mozilla.org/"
-                    target="_blank"
-                    rel="noopener">
-                    MDN Web Docs
-                </a>
-                — the reference I use when I get stuck.
+        <ul class="skills-grid">
+            <li class="skill-card">
+                <h3>HTML</h3>
+                <p>I use semantic HTML to organize webpages with headings, sections, accessible links, lists, images, and captioned figures.</p>
             </li>
 
-            <li>
-                <a href="https://css-tricks.com/"
-                    target="_blank"
-                    rel="noopener">
-                    CSS-Tricks
-                </a>
-                — clear writeups of layout techniques.
+            <li class="skill-card">
+                <h3>CSS</h3>
+                <p>I am learning how to style responsive webpages using design tokens, Flexbox, Grid, and media queries.</p>
             </li>
 
-            <li>
-                <a href="https://web.dev/"
-                    target="_blank"
-                    rel="noopener">
-                    web.dev
-                </a>
-                — Google's guides for building for the modern web.
+            <li class="skill-card">
+                <h3>Python</h3>
+                <p>I am learning Python for data analysis and have used tools such as Google Colab to work with datasets.</p>
+            </li>
+
+            <li class="skill-card">
+                <h3>Data Analysis</h3>
+                <p>I am developing skills in working with data, identifying patterns, and communicating findings clearly.</p>
             </li>
         </ul>
-    </aside>
+    </section>
 
-    <footer>
-        <p>&copy; 2026 Angelic Furaha</p>
-    </footer>
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <ul class="project-list">
+            <li class="project-card featured">
+                <h3>Personal Portfolio</h3>
+                <p><time datetime="2026-08">August 2026</time></p>
+                <p>I built this portfolio from scratch using HTML and CSS. The site showcases my background, skills, projects, and professional goals while using responsive and <em>accessible</em> web design.</p>
+            </li>
+
+            <li class="project-card">
+                <h3>Google Colab Data Project</h3>
+                <p><time datetime="2026-09">September 2026</time></p>
+                <p>I used Google Colab and Python to import and explore a dataset from Kaggle while continuing to build my coding and data analysis skills.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>The best way to reach me is by email or through GitHub.</p>
+
+        <ul>
+            <li><a href="mailto:afuaha@tcu.edu">Email Angelic Furaha</a></li>
+            <li><a href="https://github.com/furahaangelic-ai" target="_blank" rel="noopener">Visit my GitHub</a></li>
+        </ul>
+
+        <p><strong>Available for internships starting January 2027.</strong></p>
+    </section>
+
+</main>
+
+<aside id="resources">
+    <h2>Resources</h2>
+
+    <ul>
+        <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a> — the reference I use when I get stuck.</li>
+        <li><a href="https://css-tricks.com/" target="_blank" rel="noopener">CSS-Tricks</a> — clear writeups of layout techniques.</li>
+        <li><a href="https://web.dev/" target="_blank" rel="noopener">web.dev</a> — Google's guides for building for the modern web.</li>
+    </ul>
+</aside>
+
+<footer>
+    <p>&copy; 2026 Angelic Furaha</p>
+</footer>
 
 </body>
-
 </html>
